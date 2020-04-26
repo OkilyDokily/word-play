@@ -1,7 +1,7 @@
 function processRawSentence(rawSentence){
   var words = rawSentence.split(".").join(" ").split(" ");
   
-  return words.filter(x => x.length >=3) .reverse().join(" ");
+  return words.filter(x => x.length >= 3).reverse().join(" ");
 }
 
 
